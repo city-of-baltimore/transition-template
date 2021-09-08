@@ -1,0 +1,23 @@
+Use settings > add/remove apps to uninstall Rstudio & R if you have it on your computer already
+
+Remove any package folders you may have in your one drive folder under documents > R
+
+Download and Install:
+https://cran.r-project.org/bin/windows/base/old/4.0.5/
+https://www.rstudio.com/products/rstudio/download/#download
+https://cran.r-project.org/bin/windows/Rtools/ (install at location C:/Program Files/R/R-4.0.5/library)
+
+Windows Button + S > Rstudio , then right click and "open as administrator"
+Yes to allow app to make changes to computer
+
+Check ?install.packages and the lib argument
+
+Change auto install location to: "C:/Program Files/R/R-4.0.5/library"
+
+Run program files in this order:
+functions
+city-content
+load-data
+text
+server
+app
