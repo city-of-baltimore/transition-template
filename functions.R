@@ -33,7 +33,8 @@
     past_color <- "DimGrey"
     
     #Create icons for priority areas
-    gicon <- function(x) as.character(icon(x))
+    #use font awesome to find glyph names https://fontawesome.com/v5.15/icons?d=gallery&p=2
+    gicon <- function(x) as.character(icon(x), class = NULL, lib = "font-awesome")
     safety <- gicon("ambulance")
     finance <- gicon("money-check-alt")
     education <- gicon("chalkboard-teacher")
